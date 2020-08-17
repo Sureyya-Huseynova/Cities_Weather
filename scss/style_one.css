@@ -1,0 +1,428 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.pink {
+  color: #fa12a1;
+}
+
+.blue {
+  color: #048ce7;
+}
+
+.grey {
+  color: #c7c5c5;
+  border-bottom: solid 1px #dbdbdb;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_open {
+  display: block;
+  font-size: 3rem;
+  color: #131313;
+  display: none;
+}
+
+h1, h2 {
+  font-size: 4rem;
+  color: "rgb(255, 153, 0)";
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+.carousel-inner {
+  width: 100%;
+  background-color: black;
+}
+
+.d-block {
+  height: 520px;
+}
+
+.carousel-caption p {
+  font-size: 1.5em;
+}
+
+nav {
+  width: 100%;
+  padding: 3rem;
+  padding-bottom: 10rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.233);
+  position: relative;
+  top: -52rem;
+}
+
+#navbar_left {
+  width: 40%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar_icons {
+  width: 18%;
+  margin: auto;
+}
+
+#navbar_left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+#navbar_left ul li {
+  padding: 0 2rem;
+  font-size: 2.2rem;
+  text-shadow: white 0 0 0.03px;
+  text-align: center;
+}
+
+#navbar_left ul li a:hover {
+  text-decoration: none;
+  color: #ccd4d4;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+#navbar_icons a {
+  padding: 0 2.3rem;
+  font-size: 2.5rem;
+}
+
+#navbar_icons a:nth-child(1) i:hover {
+  color: #db207e;
+}
+
+#navbar_icons a:nth-child(2) i:hover {
+  color: #213fa3;
+}
+
+#search_div {
+  width: 40%;
+  margin: auto auto 10rem;
+  padding: 2rem;
+}
+
+#search_input {
+  margin: auto;
+  width: 90%;
+  padding: 1.2rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  border: #414141 3px solid;
+}
+
+#search_icon {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  color: darkmagenta;
+  cursor: pointer;
+}
+
+#search_input:focus {
+  background-color: #f7f3ec;
+}
+
+.city_weather {
+  width: 50%;
+  margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("https://s1.1zoom.me/big0/914/Sunrises_and_sunsets_Mountains_Lake_Scenery_556221_1280x854.jpg");
+  opacity: 0.9;
+  -webkit-filter: blur(0.4px);
+          filter: blur(0.4px);
+  color: white;
+  height: auto;
+  -webkit-box-shadow: #838383 0.2px 0.2px 1px;
+          box-shadow: #838383 0.2px 0.2px 1px;
+  z-index: -5;
+  border-radius: 5px;
+  position: relative;
+  top: -10rem;
+}
+
+.city_div {
+  width: 40%;
+  border-right: none;
+}
+
+.info_div {
+  border-left: none;
+  width: 60%;
+  margin-bottom: 1rem;
+  border-left: rgba(247, 247, 250, 0.74) 1px solid;
+}
+
+.info_div:nth-child(10) {
+  margin-bottom: 0 !important;
+}
+
+.city_div_text, .info_div_text {
+  border-bottom: solid 1px #a7a6a6;
+  font-size: 1.9rem;
+  text-shadow: white 0.1px 0.1px 0.5px;
+  padding: 2rem 2rem 0.5rem;
+  height: 6rem;
+  text-align: center;
+}
+
+.city_head {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 0.2rem;
+}
+
+.city_icon {
+  display: block;
+  margin-top: -3rem;
+}
+
+.container_div {
+  width: 90%;
+  margin: 10rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container {
+  width: 360px;
+  height: 370px;
+  border: 1px solid #080808;
+  -webkit-box-shadow: #46491a 0 2px 2px;
+          box-shadow: #46491a 0 2px 2px;
+  border-radius: 5px;
+}
+
+.img_div {
+  width: 82%;
+  height: 310px;
+  margin: auto;
+  position: relative;
+  top: -4rem;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  z-index: 1;
+}
+
+.img_div img {
+  width: 100%;
+  height: 320px;
+  border-radius: 10%;
+}
+
+.container:hover .img_div {
+  position: relative;
+  top: -17rem;
+}
+
+.conatiner_text {
+  width: 60%;
+  margin: auto;
+  font-size: 1.7rem;
+  position: relative;
+  top: -15rem;
+  font-weight: 500;
+  text-shadow: black 0 0 0.001px;
+}
+
+.container_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.city_name {
+  position: relative;
+  top: -13rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+footer {
+  width: 96%;
+  margin: auto;
+  height: 550px;
+  -webkit-filter: blur(0.5px);
+          filter: blur(0.5px);
+  background-image: url("https://cms.hostelworld.com/hwblog/wp-content/uploads/sites/2/2018/12/matterhorn-1313x875.jpg");
+}
+
+#tri {
+  width: 0;
+  height: 0;
+  margin-left: 7%;
+  border-bottom: 552px solid rgba(0, 0, 0, 0.39);
+  border-left: 500px  solid transparent;
+  border-right: 705px solid rgba(0, 0, 0, 0.39);
+  z-index: -2;
+}
+
+#contact_div {
+  margin-top: 10rem;
+  z-index: 3;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: white 0 0 0 0.1px;
+  width: 30%;
+  margin-left: 50%;
+  position: relative;
+  top: -62rem;
+  letter-spacing: 0.1rem;
+}
+
+.contact {
+  font-size: 3.5rem;
+}
+
+.contact_text {
+  width: 80%;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.contact_item {
+  border-bottom: white 1px solid;
+}
+
+.input, textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #333;
+  border-bottom: 1px solid white;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.input:focus {
+  background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: #dad8d8;
+}
+
+:-ms-input-placeholder {
+  color: #dad8d8;
+}
+
+::-ms-input-placeholder {
+  color: #dad8d8;
+}
+
+::placeholder {
+  color: #dad8d8;
+}
+
+#footer {
+  background-color: black;
+  color: "rgb(255, 153, 0)";
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+#send {
+  background-color: #ffc400;
+  color: black;
+  padding: 0.7rem 2rem;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+#send:hover {
+  background-color: "rgb(255, 153, 0)";
+}
+
+.fa-paper-plane {
+  margin-left: 3%;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 8px;
+  }
+  .nav_open {
+    display: block;
+  }
+  nav {
+    display: none;
+    margin: 2rem;
+  }
+  #navbar_left ul {
+    width: 100%;
+    display: block;
+  }
+  #navbar_left ul li {
+    margin-bottom: 1rem;
+  }
+  #navbar_icons a i {
+    margin-bottom: 1rem;
+  }
+  #contact_div {
+    width: 80%;
+    margin-left: 15%;
+  }
+  #tri {
+    border-bottom: 550px solid rgba(0, 0, 0, 0.39);
+    border-left: 295px  solid transparent;
+    border-right: 60px solid rgba(0, 0, 0, 0.39);
+  }
+  .container {
+    margin: 5rem auto;
+  }
+  #search_div {
+    width: 80%;
+  }
+  #search_input {
+    width: 85%;
+  }
+  .city_weather {
+    width: 80%;
+  }
+  nav {
+    background-color: transparent;
+  }
+}
+/*# sourceMappingURL=style_one.css.map */

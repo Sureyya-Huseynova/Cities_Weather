@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Weather, Air, Temperature, City">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Weather</title>
+    <link rel="stylesheet" href="scss/style_one.css">
+</head>
+
+<body>
+    <i class="fas fa-align-left nav_open"></i>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.surfertoday.com/images/stories/physical-world-map.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>World Weather</h1>
+                <h5>You Learn ..</h5>
+                <p>weather conditions of all countries of the world</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.vspiritcruises.com/wp-content/uploads/2014/07/Ha-Long-Bay-Vietnam1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">     
+                <h2>World Weather</h2>
+                <h5>You Learn ..</h5>
+                <p>weather conditions of all countries of the world</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.macphun.com/img/uploads/macphun/blog/1359/rain-photography-cover.jpg?q=75&w=1710&h=906&resize=cover" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">          
+                <h2>World Weather</h2>
+                <h5>You Learn ..</h5>
+                <p>weather conditions of all countries of the world</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images7.alphacoders.com/598/598110.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>World Weather</h2>
+                <h5>You Learn ..</h5>
+                <p>weather conditions of all countries of the world</p>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+<!--   Navbar   -->
+        <nav>
+            <div id="navbar_left">
+                <ul>
+                    <li>
+                        <a href="#" class="grey">Now</a>
+                    </li>
+                    <li>
+                        <a href="#">Hourly</a>
+                    </li>
+                    <li>
+                        <a href="#">Weekly</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="navbar_icons">
+                <a href="#">
+                    <i class="fab fa-instagram-square pink"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook-square blue"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </nav>
+      </div>
+    
+<!--Search -->
+    <div id="search_div">
+        <input type="search" id="search_input" placeholder="Enter city name..">
+        <i class="fas fa-search" id="search_icon"></i>
+    </div>
+  
+
+<!-- City div  -->
+    <div class="city_weather">
+    </div>
+   
+<!-- country card -->
+    <div class="container_div">
+        <div class="container">
+            <div class="img_div">
+                <img src="https://www.glassonline.com/event/common/css/corporal2/resources/img/baku-flame-towers.jpg"
+                    alt="">
+            </div>
+            <div class="conatiner_text_baku conatiner_text">
+            </div>
+            <p class="city_name">Baku weather</p>
+        </div>
+        <div class="container">
+            <div class="img_div">
+                <img src="https://sumqayitxeber.com/files/uploads/2018/10/goyercin-sumqayit.jpg" alt="">
+            </div>
+            <div class="conatiner_text_sumqayit conatiner_text">
+            </div>
+            <p class="city_name">Sumqayit weather</p>
+        </div>
+        <div class="container">
+            <div class="img_div">
+                <img src="https://www.gezilesiyer.com/wp-content/uploads/2019/02/ankara.jpg" alt="">
+            </div>
+            <div class="conatiner_text_ankara conatiner_text">
+            </div>
+            <p class="city_name">Ankara weather</p>
+        </div>
+    </div>
+
+    <footer>
+        <div id="tri"> 
+        </div>
+        <div id="contact_div">
+            <p class="contact">Contact Us</p>
+            <p class="contact_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, provident adipisci  and perspiciatis praesentium cumque consequuntur ipsam rem repudiandae porro nulla! Lorem ipsum dolor sit amet.</p> 
+            <input type="text" placeholder="Name:" class="input" id="name">
+            <input type="email" placeholder="Email:" class="input" id="email">
+            <textarea name="text" placeholder="Message:" rows="4" id="message"></textarea>
+            <a href="#" id="send">Send it
+                <i class="fas fa-paper-plane"></i>
+            </a>
+        </div>
+    </footer>
+
+    <div id="footer">
+        World_Weather.com
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="carusel.js"></script>
+<script src="ui.js"></script>
+<script src="container.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
